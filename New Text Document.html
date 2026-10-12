@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Mohamed Hassanien | Portfolio</title>
+
+    <style>
+        /* General page styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: #222;
+        }
+
+        /* Header */
+        header {
+            background-color: turquoise;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+            header h1 {
+                color: black;
+                font-size: 32px;
+                margin-bottom: 10px;
+                font-weight: bold;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+
+        nav {
+            margin-top: 20px;
+        }
+
+            nav a {
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
+                margin: 0 15px;
+            }
+
+                nav a:hover {
+                    text-decoration: underline;
+                }
+
+        /* Main content */
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        /* About Me section */
+        .intro {
+            display: inline-block;
+            width: 55%;
+            vertical-align: top;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .about {
+            display: inline-block;
+            width: 40%;
+            vertical-align: top;
+            padding: 20px;
+            box-sizing: border-box;
+            background-color: #e6fffb;
+            border-left: 5px solid turquoise;
+        }
+
+        h2 {
+            color: black;
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            font-weight: bold;
+            line-height: 1.8;
+        }
+
+        /* Projects section */
+        #projects {
+            margin-top: 45px;
+            text-align: center;
+        }
+
+        .project-card {
+            display: inline-block;
+            width: 28%;
+            min-height: 190px;
+            vertical-align: top;
+            text-align: left;
+            box-sizing: border-box;
+            margin: 1%;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-top: 5px solid turquoise;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px #00000012;
+        }
+
+            .project-card h3 {
+                color: black;
+                font-size: 19px;
+                font-weight: bold;
+            }
+
+            .project-card p {
+                line-height: 1.6;
+                color: #444;
+            }
+
+            .project-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 6px 15px #00000020;
+            }
+
+        /* Footer */
+        footer {
+            background-color: turquoise;
+            text-align: center;
+            padding: 18px;
+            margin-top: 40px;
+            color: black;
+        }
+
+        /* Make the page fit smaller screens */
+        @media (max-width: 700px) {
+            .intro,
+            .about {
+                width: 100%;
+            }
+
+            .project-card {
+                width: 90%;
+                margin: 10px 0;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Website Header -->
+    <header>
+        <h1>Mahmoud Mohamed Hassanien</h1>
+        <p>Engineer | Innovator | Former Professional Footballer</p>
+
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">My Projects</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Introduction and About Me -->
+        <section id="about">
+
+            <div class="intro">
+                <h2>Welcome to My Portfolio</h2>
+
+                <p>
+                    Welcome to my personal portfolio! I am passionate about
+                    engineering, technology, and turning creative ideas into
+                    real-world solutions.
+                </p>
+
+                <p>
+                    Here, you can explore some of the projects I have worked
+                    on, from game development to AI and software applications.
+                </p>
+            </div>
+
+            <div class="about">
+                <h2>More About Me</h2>
+
+                <p>
+                    I am an engineer who loves to create and innovate.
+                    I enjoy solving problems, developing new ideas, and
+                    building projects that make a difference.
+                </p>
+
+                <p>
+                    I am also a former professional footballer, an experience
+                    that taught me discipline, teamwork, and perseverance.
+                </p>
+            </div>
+
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <div class="project-card">
+                <h3>Waterboy and Firegirl</h3>
+
+                <p>
+                    A game featuring two characters who must work together
+                    to overcome obstacles and solve puzzles. The game includes
+                    four levels of difficulty.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>CREDDIT</h3>
+
+                <p>
+                    A Reddit-inspired platform developed specifically for
+                    Ain Shams University students, providing a space for
+                    students to interact and share content.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Item Pricing AI Model</h3>
+
+                <p>
+                    An artificial intelligence model that predicts the future
+                    prices of selected items. Our team ranked first in the
+                    competition.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Mahmoud Mohamed Hassanien. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
