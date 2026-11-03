@@ -1,0 +1,16 @@
+{
+  "name": "web-development-24p0329",
+  "version": "1.0.0",
+  "description": "CSE343 Lab 4 - Todo App (TypeScript + Node.js)",
+  "scripts": {
+    "build": "tsc",
+    "start": "node server.js",
+    "dev": "tsc && node server.js"
+  },
+  "keywords": [],
+  "author": "Mahmoud Mohamed Hassanien (24p0329)",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
